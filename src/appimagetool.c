@@ -163,7 +163,7 @@ int sfs_mksquashfs(char *source, char *destination, int offset) {
         else
             args[i++] = sqfs_comp;
 
-        args[i++] = "-root-owned";
+        //args[i++] = "-root-owned";
         args[i++] = "-noappend";
 
         if (use_xz) {
